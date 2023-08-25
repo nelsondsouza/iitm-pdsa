@@ -8,7 +8,7 @@ Implement a function coin_change_ways(coins, amount) that takes in a list of coi
 and returns the number of distinct ways to make up the amount using the given coins.
 
 Sample input 1
-1, 2, 5
+[1, 2, 5]
 5
 
 Output:
