@@ -32,7 +32,7 @@ Complete the function  **insert_element(root, k)**  That accepts the reference o
 ```
 
 **Explanation:-**  After insertion all element, following is the resultant BST
-![](https://backend.seek.onlinedegree.iitm.ac.in/23t2_cs2002/assets/img/mockppa5.png)
+![image](https://github.com/nelsondsouza/iitm-pdsa/assets/19646977/ab1f5777-63e2-4c10-996f-5f11050064bb)
 
 ```python
 class Node:
@@ -40,8 +40,8 @@ class Node:
         self.left = None
         self.data = data
         self.right = None
-def insert_element(root,k):
 
+def insert_element(root,k):
     # If the tree is empty, return a new node
     if root is None:
         return Node(k)
@@ -58,14 +58,14 @@ def inorder(root):
         # First recur for the left child
         inorder(root.left)
         # Then print the data of the node
-        print(root.data),
+        print(root.data)
         # Now recur for the right child
         inorder(root.right)
 
 def preorder(root):
     if root:
         # First print the data of the node
-        print(root.data),
+        print(root.data)
         # Then recur for the left child
         preorder(root.left)
         # Finally recur for the right child
