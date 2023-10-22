@@ -1,4 +1,4 @@
-![](https://backend.seek.onlinedegree.iitm.ac.in/22t1_cs2002/assets/img/W3P4.JPG)
+![image](https://backend.seek.onlinedegree.iitm.ac.in/22t1_cs2002/assets/img/W3P4.JPG)
 ```python
 class Queue:
     def __init__(self):
